@@ -1,36 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import PokemonCard from "../components/pokemon-card";
 import Home from "../pages/index";
-import { PokemonDetail } from "../shared/interfaces";
-
-const mockPokemonData: PokemonDetail = {
-  id: "1",
-  name: "bulbasaur",
-  types: [
-    {
-      type: {
-        name: "grass",
-      },
-    },
-  ],
-  height: 14,
-  weight: 69,
-  abilities: [
-    {
-      ability: {
-        name: "chlorophyll",
-      },
-    },
-  ],
-  stats: [
-    {
-      base_stat: 45,
-      stat: {
-        name: "speed",
-      },
-    },
-  ],
-};
+import { mockPokemonData } from "./mock";
 
 describe("Home", () => {
   it("should Pokedex in home", () => {
