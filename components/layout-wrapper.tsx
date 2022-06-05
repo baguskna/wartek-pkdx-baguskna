@@ -7,9 +7,9 @@ interface LayoutWrapperProps {
 }
 
 const layoutWrapperStyles = css`
-  padding: 0 16px;
   margin: 0 auto;
   max-width: 576px;
+  padding: 0 16px;
 `;
 
 const LayoutWrapper: (props: LayoutWrapperProps) => EmotionJSX.Element = ({
