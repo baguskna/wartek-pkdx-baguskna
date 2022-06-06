@@ -31,7 +31,7 @@ yarn test
 
 ### Data fetching
 
-We use [Next.js API routes](https://nextjs.org/docs/api-routes/introduction) to wrap requests heading to the Random User API. Then we use [SWR](https://swr.vercel.app/) for our data-fetching logic, allowing for data fetches to be wrapped in a custom hook.
+We use [SWR](https://swr.vercel.app/) for our data-fetching logic, allowing for data fetches to be wrapped in a custom hook.
 
 ### Directory structure
 
